@@ -11,9 +11,10 @@ def hangman(wrongGuess = 0):
         randomList.append(letter)
     hidden = re.sub("[ABCDEFGHIJKLMNOPQRSTUVWXYZ]", "_", randomWord)
     hiddenList = []
+    stop = False
     for i in hidden:
         hiddenList.append(i)
-    while wrongGuess < 15:      
+    while wrongGuess != 14 and stop == False:      
         guess = input("Guess: ").upper()
         if guess in randomList:
             found = randomList.index(guess)
@@ -96,6 +97,9 @@ def hangman(wrongGuess = 0):
                         "/ \  |\n"+
                         "    ---")
                 print(x)
-                print(f"Wrong! The correct word was {randomWord}")  
-
+                print(f"Wrong! The correct word was {randomWord}")
+                stop = True
+        if hidden.find("_") == -1:
+            stop = True
+            print("DONE!")
 hangman()
