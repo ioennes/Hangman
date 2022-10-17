@@ -1,12 +1,12 @@
-he Shawshank Redemption
-he Godfather
-he Dark Knight
-he Godfather Part II
-2 Angry Men
-chindler's List
-he Lord of the Rings: The Return of the King
-ulp Fiction
-he Lord of the Rings: The Fellowship of the Ring
+The Shawshank Redemption
+The Godfather
+The Dark Knight
+The Godfather Part II
+12 Angry Men
+Schindler's List
+The Lord of the Rings: The Return of the King
+Pulp Fiction
+The Lord of the Rings: The Fellowship of the Ring
 Forrest Gump
 Fight Club
 Inception
@@ -51,8 +51,8 @@ Avengers: Infinity War
 The Shining
 Spider-Man: Into the Spider-Verse
 Aliens
-Top Gun: Maverick
 The Dark Knight Rises
+Top Gun: Maverick
 Dr Strangelove or: How I Learned to Stop Worrying and Love the Bomb
 American Beauty
 Joker
@@ -247,4 +247,4 @@ Blood Diamond
 Papillon
 Her
 Annie Hall
-Sling Blade
+Cinderella Man

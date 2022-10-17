@@ -14,7 +14,9 @@ for index in range(0, len(movies)):
     movie_string = movies[index].get_text().encode("ascii","ignore")
     movie_string = movie_string.decode()
     movie = (' '.join(movie_string.split()).replace('.', ''))
-    if index <= 99:
+    if index < 10:
+        movie = movie[2:-7].rstrip().lstrip()
+    elif index <= 99:
         movie = movie[3:-7].rstrip().lstrip()
     elif index > 99:
         movie = movie[4:-7].rstrip().lstrip() 

@@ -1,8 +1,12 @@
 import random
 import re
 
+# Open movie_names.txt
+
 fname = open("movie_names.txt", "r")
 fname = fname.read().upper().splitlines()
+
+# Define Game
 
 def hangman(wrongGuess = 0):
     randomWord = random.choice(fname)                                                   # Random movie name
@@ -102,4 +106,7 @@ def hangman(wrongGuess = 0):
         if hidden.find("_") == -1:
             stop = True
             print("DONE!")
+
+# Execute Game
+
 hangman()
