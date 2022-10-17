@@ -97,7 +97,7 @@ def hangman(wrongGuess = 0):
                         "/ \  |\n"+
                         "    ---")
                 print(x)
-                print(f"Wrong! The correct word was {randomWord}")              
+                print(f"Wrong! The correct word was {randomWord.capitalize()}")              
                 stop = True
         if hidden.find("_") == -1:
             stop = True
